@@ -1,13 +1,13 @@
 COLOR_PALLETE = {
-  'N/A': '#A6CEE3',
-  'Chinese': '#1F78B4',
-  'Caribbean': '#B2DF8A',
-  'Italian': '#33A02C',
-  'Jewish/Kosher': '#FB9A99',
-  'Mexican': '#E31A1C',
-  'Latin': '#FDBF6F',
-  'Japanese': '#FF7F00',
-  'Pizza': '#CAB2D6',
+  'N/A': '#D9D9D9',
+  'Chinese': '#FFFFB3',
+  'Caribbean': '#8DD3C7',
+  'Italian': '#BEBADA',
+  'Jewish/Kosher': '#80B1D3',
+  'Mexican': '#B3DE69',
+  'Latin': '#FDB462',
+  'Japanese': '#FB8072',
+  'Pizza': '#FCCDE5',
 }
 
 mapboxgl.accessToken = 'pk.eyJ1IjoidGlydGF3ci1tYXBib3giLCJhIjoiY2thMDdja3NnMDZnczNqcXd3bXJ5Z2x6dyJ9.x-SaMGF_GPr6G-_YGt0uYw';
@@ -63,8 +63,8 @@ function loadMap(map, boundaries, centeroids) {
         'layout': {},
         'paint': {
           'fill-antialias': true,
-          'fill-outline-color': '#FFFFFF',
-          'fill-color': `rgba(${hexToRgb(colorHex).r}, ${hexToRgb(colorHex).g}, ${hexToRgb(colorHex).b}, .4)`
+          'fill-outline-color': '#115C76',
+          'fill-color': `rgba(${hexToRgb(colorHex).r}, ${hexToRgb(colorHex).g}, ${hexToRgb(colorHex).b}, .7)`
         }
       });
 
